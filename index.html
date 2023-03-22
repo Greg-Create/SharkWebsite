@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+<!--Links to the external CSS stylesheet to be able to properly style the website, present on every page-->
+<link rel="stylesheet" type="text/css" href="styles.css" />
+<title>SharkieShark</title>
+  </head>
+<body>
+
+<!--The navigation menu, a list composed of the title, as well as the links to the different pages and shopping cart used with css to look like a proper navigation bar, used on every page-->
+    <div class="navbar">
+        <div>
+            <h3  class="logo"><a href="index.html">SharkieShark</a></h3>
+    </div>
+    <div class="links">
+        <li class="nav_link" ><a href="about.html">About Us</a></li>
+        <li class="nav_link" ><a href="follow.html">Follow Us</a></li>
+        <li class="nav_link" ><a href="contact.html">Contact Us</a></li>
+        <li class="nav_link"><a href="sitemap.html">Site map </a> </li>
+        
+        <li>
+           
+            <div  class="container">
+<!--Shopping cart, when clicks calls the openCart() function--> 
+   
+        <img  onclick="openCart()" class="shopimage" src="shoppingCart.png"/>
+        <div id="content" class="content"  >
+            <h3 class="headingcart">My Shopping Cart</h3>
+            <div class="shoppingCart">
+            <div id="myList" class="items">
+            </div>
+
+            <div id="totalprice">
+
+            </div>
+            <button class="checkoutbutton">Checkout</button>
+        </div>
+    
+        </div>
+            </div>
+        </li>
+    </div>
+</div>
+<audio id="sound1" src="chaching.mp3" preload="auto"></audio>
+<audio id="sound2"  preload="auto">
+  <source src="Jaws-theme-song.mp3"> 
+</audio>
+<audio id="sound3" src="babyShark.mp3" preload="auto"></audio>
+
+<!--The top part of the main page, used to attract users attention, contains image of shark as well as information about the website-->
+<div class="head">
+    <div>
+    <h1 class="heading">The Worlds #1 Shark Store</h1>
+    <h5 class="subheading"><i>Buy Any Shark You Want </i></h5>
+</div>
+  <div   class="carouselle">
+    <img src="https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/tnc_54897705.jpg?crop=0%2C83%2C4000%2C2500&wid=1640&hei=1025&scl=2.4390243902439024">
+    <img src="https://i.natgeofe.com/k/dda017fb-7293-4c15-ba05-d1c3af2280f6/hammerhead-shark-underwater_3x2.jpg">
+    <img src="https://th.bing.com/th/id/R.24ccf1b012a1823996c2f92e4031ac4e?rik=r1LA0YYgtAy6cg&pid=ImgRaw&r=0">
+    <img src="https://i.pinimg.com/originals/b3/5d/2d/b35d2d6bb6ad0da3d2177f015cf5cf00.jpg">
+</div>
+
+</div>
+
+<!--List of sharks for sale, in a grid like pattern, every box, has the image of a shark, the name,the price, the link to the shark's individual page
+and the shopping cart feature-->
+  <div class="sharksofdreams">
+<h2 class="saleHeading">Sharks For Sale</h2>
+<h4 class="subs"> <i>Buy the shark of your dreams</i></h4>
+  </div>
+<div class="box-Grid">
+    <div class="box">
+        <img src="https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/tnc_54897705.jpg?crop=0%2C83%2C4000%2C2500&wid=1640&hei=1025&scl=2.4390243902439024"/>
+        <h2>Tiger Shark</h2>
+        <h4>Price: $17,800</h4>
+        <button onclick="addcard('Tiger Shark',17800,0 ); document.getElementById('sound1').play()">Add to Cart</button>
+        <div class="notifi" id="notifi"><p class="message">Added Tiger Shark to ShoppingCart</p></div>
+        <p><a href="tigerShark.html" onclick=" ">Click For More Details</a></p>
+    </div>
+    <div class="box">
+        <img src="https://i.natgeofe.com/k/dda017fb-7293-4c15-ba05-d1c3af2280f6/hammerhead-shark-underwater_3x2.jpg"/>
+        <h2>Hammer Head</h2>
+        <h4>Price: $23,300</h4>
+        <button onclick="addcard('Hammer Head',23300,1); document.getElementById('sound1').play()">Add to Cart</button>
+        <div class="notifi" id="notifi"><p class="message">Added Hammer Head Shark to ShoppingCart</p></div>
+        <p><a href="hammerHead.html">Click For More Details</a></p>
+
+    </div>
+    <div class="box">
+        <img src="https://th.bing.com/th/id/OIP.9VjJdYOL8ZIDYvsmw0ssQwHaFn?pid=ImgDet&rs=1"/>
+        <h2>Basking Shark</h2>
+        <h4>Price: $12,000</h4>
+        <button onclick="addcard('Basking Shark',12000,2); document.getElementById('sound1').play()">Add to Cart</button>
+        <div class="notifi" id="notifi"><p class="message">Added Basking Shark to ShoppingCart</p></div>
+        <p><a href="baskingShark.html">Click For More Details</a></p>
+    </div>
+
+    <div class="box" id="greatwhite">
+        <img src="https://th.bing.com/th/id/R.68ddae24c0d012bb1b5dcfbd3fc12393?rik=dLZz8hooFIhftQ&riu=http%3a%2f%2f4.bp.blogspot.com%2f-p5TJYYU8nfM%2fTqoufYE0n7I%2fAAAAAAAACNM%2fKLrvBbaG0V0%2fs1600%2fGreat-White-Shark-07.jpg&ehk=cGaz1N0ZaMapgahC2aKj2RZZ%2bzrkr1vvcTQE638qdcE%3d&risl=&pid=ImgRaw&r=0"/>
+        <h2>Great White Shark</h2>
+        <h4>Price: $34,900</h4>
+        <button onclick="addcard('Great White Shark',34900,3); document.getElementById('sound1').play()">Add to Cart</button>
+        <div class="notifi" id="notifi"><p class="message">Added Great White Shark to ShoppingCart</p></div>
+        <p><a href="whiteShark.html">Click For More Details</a></p>
+
+    </div>
+    <div class="box">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCmecai2Ks67A2s9Yf54KgYhkDpkymU7kKGA&usqp=CAU"/>
+        <h2>Goblin Shark</h2>
+        <h4>Price: $24,240</h4>
+        <button onclick="addcard('Goblin Shark',24240,4); document.getElementById('sound1').play()">Add to Cart</button>
+        <div class="notifi" id="notifi"><p class="message">Added Goblin Shark to ShoppingCart</p></div>
+        <p><a href="goblinShark.html">Click For More Details</a></p>
+
+    </div>
+    <div class="box">
+        <img src="https://th.bing.com/th/id/R.981ed469a199c3abb94f60ad91a41b3b?rik=YxCz%2bvPwIz4lAA&pid=ImgRaw&r=0"/>
+        <h2>Nurse Shark</h2>
+        <h4>Price: $9,600</h4>
+        <button  onclick="addcard('Nurse Shark',9600,5); document.getElementById('sound1').play()">Add to Cart</button>
+        <div class="notifi" id="notifi"><p class="message">Added Nurse Shark to ShoppingCart</p></div>
+        <p><a href="nurseShark.html">Click For More Details</a></p>
+
+    </div>
+   <div id="sharks" class="box">
+        <img src="https://i.pinimg.com/originals/b3/5d/2d/b35d2d6bb6ad0da3d2177f015cf5cf00.jpg"/>
+        <h2>Leopard Shark</h2>
+        <h4>Price: $8,550</h4>
+        <button onclick="addcard('Leopard Shark',8550,6); document.getElementById('sound1').play()">Add to Cart</button>
+        <div class="notifi" id="notifi"><p class="message">Added Leopard Shark to ShoppingCart</p></div>
+        <p ><a href="leopardShark.html" >Click For More Details</a></p>
+
+    </div>
+
+  <div class="box">
+        <img src="https://th.bing.com/th/id/OIP.bd-X91R4jNDJk_v_C4pBDwHaFq?pid=ImgDet&rs=1"/>
+        <h2>Whale Shark</h2>
+        <h4>Price: $25,000</h4>
+        <button onclick="addcard('Whale Shark',25000,7); document.getElementById('sound1').play()">Add to Cart</button>
+        <div class="notifi" id="notifi"><p class="message">Added Whale Shark to ShoppingCart</p></div>
+        <p><a href="whaleShark.html">Click For More Details</a></p>
+
+    </div>
+
+  <div class="box">
+        <img src="https://th.bing.com/th/id/R.3dd976a4e718e61182cbc5d488da6f54?rik=yhRXGh31Yh6a0Q&riu=http%3a%2f%2fwww.trbimg.com%2fimg-5968f54b%2fturbine%2fla-1500050760-jlt6i1mduj-snap-image&ehk=Rzd592ktjxS05xvzfryGmtcFKCADjf0CfBXdAc83odA%3d&risl=&pid=ImgRaw&r=0"/>
+        <h2>Shortfin Mako Shark</h2>
+        <h4>Price: $14,240</h4>
+        <button onclick="addcard('Shortfin Mako Shark',14240,8); document.getElementById('sound1').play()">Add to Cart</button>
+        <div class="notifi" id="notifi"><p class="message">Added Shortfin Mako Shark to ShoppingCart</p></div>
+        <p><a href="shortfinmakoShark.html">Click For More Details</a></p>
+
+    </div>
+
+  <div class="box">
+        <img src="https://static.standard.co.uk/s3fs-public/thumbnails/image/2019/01/25/14/angelshark2501.jpg"/>
+        <h2>Angel Shark</h2>
+        <h4>Price: $5,800</h4>
+        <button onclick="addcard('Angel Shark',5800,9); document.getElementById('sound1').play()">Add to Cart</button>
+        <div class="notifi" id="notifi"><p class="message">Added Angel Shark to ShoppingCart</p></div>
+        <p><a href="angelShark.html">Click For More Details</a></p>
+
+    </div>
+
+  <div class="box">
+        <img src="https://th.bing.com/th/id/R.8361219dbaa9749fcf914fa7fcc5211e?rik=XEMeWplyP%2bCkog&riu=http%3a%2f%2fnhptv.org%2fwild%2fimages%2fCarcharhinusplumbeus.jpg&ehk=JfmTyYqqY4DoIFzOEhFrLFq0ABriHg6zIk1%2bIlipjyA%3d&risl=&pid=ImgRaw&r=0"/>
+        <h2>Requiem Shark</h2>
+        <h4>Price: $15,200</h4>
+        <button onclick="addcard('Requiem Shark',15200,10); document.getElementById('sound1').play()">Add to Cart</button>
+        <div class="notifi" id="notifi"><p class="message">Added Requiem Shark to ShoppingCart</p></div>
+        <p><a href="requiemShark.html">Click For More Details</a></p>
+
+    </div>
+
+  <div class="box">
+        <img src="https://townsquare.media/site/701/files/2020/11/123592614_1687114418135656_8813531584773229028_o.jpg?w=1200&h=0&zc=1&s=0&a=t&q=89"/>
+        <h2>Porbeagle Shark</h2>
+        <h4>Price: $16,000</h4>
+        <button onclick="addcard('Porbeagle Shark',16000,11); document.getElementById('sound1').play()">Add to Cart</button>
+        <div class="notifi" id="notifi"><p class="message">Added Porbeagle Shark to ShoppingCart</p></div>
+        <p><a href="porbeagleShark.html">Click For More Details</a></p>
+
+    </div>
+
+
+    </div>
+   
+</div>
+<!--The footer of the website contians basic information about the website, present on every page-->
+<div class="footer">
+<div class="footer-container">
+    <div class="left-col">
+      <h3>Sharkie Shark</h3>
+      <p>43 Pallycourt Road</p>
+      <p>Nunavut, Canada L7J M4A</p>
+    </div>
+    <div class="right-col">
+      <h3>Contact Us</h3>
+      <p>Phone: 647 - 587 - 9428</p>
+      <p>Email: sharkieshark@company.com</p>
+    </div>
+  </div>
+</div>
+<!--Links the file to the javascript file which, helps the shopping cart feature function-->
+<script src="myscripts.js"></script>
+
+</body>
+</html>

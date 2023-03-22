@@ -1,0 +1,791 @@
+.navbar{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #194E84;
+    height:5rem;
+    width:100%;
+
+}
+
+.social{
+    margin-bottom: 10rem;
+}
+
+html *{
+    font-family: Calibri;
+}
+
+.links{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+h3{
+    color:white;
+    cursor:pointer
+
+}
+
+h1{
+  font-family: Georgia;
+}
+
+h2{
+  font-family: Georgia;
+}
+
+h4{
+  font-family: Verdana;
+}
+
+.logo{
+    margin-left:4rem
+}
+
+.content{
+    background-color:#125688;
+    display: none;
+    position: absolute;
+    width: 22rem;
+    height:32rem;
+    border-radius: 20px;
+    border-color: white;
+    border-width: 4px;
+}
+
+.nav_link{
+   
+    color:white;
+}
+
+
+.nav_link a{
+    color:white;
+    text-decoration: none;
+    transition:all 0.3s ease 0s;
+}
+
+h3 a{
+    color:white;
+    text-decoration: none;
+    transition:all 0.3s ease 0s;
+    cursor: pointer; 
+}
+.aboutuspage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.aboutustwo{
+  font-weight:bolder;
+}
+
+.aboutuspage h1{
+    margin-top: 3rem;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 5rem;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    width:12rem;
+
+    
+  }
+
+  .notifi{
+    display:none;
+  }
+
+
+  .message{
+    color: #125688;
+  }
+  
+
+  .notficiation{
+display: block;
+background-color: #21e6d3;
+width:24rem;
+height:2.5rem;
+text-align: center;
+padding: 8px;
+border-radius: 20px;
+
+
+  }
+
+  .shp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 20rem;
+    margin-top:1rem;
+    text-align: center;
+    border-bottom: 4px solid #fff;
+    padding:10px;
+  }
+
+  .shp h5{
+    font-size: 12px;
+  }
+
+  .shopimg{
+    height:2rem;
+    width: 2rem;
+    border-radius: 10px;
+  }
+.sharksofdreams{
+  background-color: #125688;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+  .remove{
+    outline: none;
+    background-color: white;
+    border:none;
+    border-radius: 10px;
+    font-size: 10px;
+    height:2rem;
+    width:3rem;
+  }
+
+  .remove:hover{
+    opacity:0.8;
+  }
+
+
+a{
+  font-family: Calibri;
+}
+
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    width:12rem;
+
+  }
+
+  .contact{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .contacts{
+    display: flex;
+    flex-direction: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:4rem;
+  }
+
+  .conts{
+    display: flex;
+    padding-left: 9px;
+  }
+  
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+    width:12rem;
+
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+    width:12rem;
+  }
+
+  .aquatic{
+    padding-bottom: 20px;
+  }
+
+
+
+.aboutus{
+   
+    font-size: larger;
+    margin-right: 10rem;
+    margin-left:10rem;
+    margin-top: 3rem;
+}
+
+h3 a:hover{
+opacity: 0.8;
+}
+.shoppingCart{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.items{
+  height:350px;
+  overflow-y:scroll;
+ }
+
+
+.headingcart{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.checkoutbutton{
+    width:8rem;
+    height:3rem;
+    background-color: white;
+    outline: none;
+    border: none;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 1rem;
+    text-style: Calibri;
+}
+
+.checkoutbutton:hover{
+    opacity: 0.7;
+}
+
+.items{
+    margin-bottom: 1rem;
+}
+
+
+.items h5:last-child{
+    margin-bottom:3rem;
+    }
+
+.nav_link a:hover{
+color:#b8d2ec;
+cursor:pointer
+}
+
+.sharkimg{
+    height:60%;
+    width:40%;
+}
+
+.aboutusshark{
+  padding-top: 20px;
+  padding-right: 10px;
+  border-radius: 15px 50px;
+  height: 370px;
+  width: 370px;
+}
+
+.aboutussharks{
+  padding-top: 20px;
+  padding-left: 10px;
+  border-radius: 50px 15px;
+  height: 370px;
+  width: 370px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+form {
+  display: inline-block;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #555;
+}
+
+.heading{
+    font-size: 50px;
+    cursor: pointer; 
+    text-align: center;
+}
+
+.subheading{
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    padding-top: 25px;
+  
+}
+
+.head{
+    height:600px;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+
+      }
+
+.box-Grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    align-items: center;
+    gap:4px;
+    background-color: #54aff0;
+
+}
+.shopimage{
+    width: 10%;
+    height:10%;
+}
+
+.saleHeading{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 75px;
+  color:white;
+
+}
+
+.subs{
+  text-align: center;
+  font-size: 25px;
+  padding-bottom: 85px;
+  color:white;
+}
+
+
+h5{
+    font-family: Calibri;
+}
+
+.total{
+    margin-top: 0rem;
+}
+
+.box{
+    text-align: center;
+    background-color: #194E84;
+    height:500px;
+    border: none;
+    margin:1rem;
+    width:90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+    
+}
+
+
+img{
+    height:300px;
+    width:300px;
+}
+
+.box img{
+    border-radius: 20px;
+}
+
+.box button{
+    width:8rem;
+    height:3rem;
+    background-color: white;
+    outline: none;
+    border: none;
+    border-radius:20px ;
+}
+
+.sharkbutton{
+    width:10rem;
+    height:5rem;
+    color:white;
+    background-color: blue;
+    outline: none;
+    border: none;
+    border-radius:20px ;
+    margin-top: 20rem;
+}
+
+.sharkbutton a{
+    color:white;
+    text-decoration: none;
+}
+
+.sharkbutton:hover{
+opacity:0.8;
+}
+
+.box button:hover{
+    opacity: 0.9;
+}
+
+.box p a{
+    cursor: pointer;
+    color:white;
+    text-decoration: none;
+
+}
+
+
+.sharkImg{
+    width:500px;
+    height:500px;
+    margin:1rem;
+}
+
+.shark_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: start;
+    margin-top: 1rem;;
+}
+
+  .sharkDescription{
+    margin-top: 1rem;
+    width: 600px;
+    text-align: justify;
+    font-family: Calibri;
+}
+  .sharkTitle{
+    margin-right: 1rem;
+}
+
+  .sharkPrice{
+    color:black;
+    font-family: Calibri;
+}
+
+.box h4{
+    color:white
+}
+
+.box h2{
+    color:white
+}
+
+.box p a:hover{
+opacity: 0.7;
+}
+
+footer {
+    background-color: #f5f5f5;
+    padding: 20px 0;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    margin-top:5rem;
+   
+  }
+
+  .footer{
+    background-color: #125688;
+    height:200px;
+  }
+  
+  .left-col, .right-col {
+    width: 45%;
+  }
+  
+  .footer-container h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 3rem;;
+  }
+  
+ .footer-container p {
+    margin-bottom: 5px;
+    color: white;
+  }
+
+  .button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.carouselle {
+  position:relative;
+  padding: 50px 0px 0px 0px;
+  height:610px;
+  width:610px;
+  z-index: -1;
+}
+.carouselle img {
+  position: absolute;
+  left: 0;
+  border-radius: 10px;
+  height: 450px;
+  width: 450px;
+  
+}
+
+.sharklogo{
+  height:22px;
+  width:22px;
+}
+
+.moreinfo{
+  background-color: white;
+  outline: none;
+  border-radius: 10px;
+  height:30px;
+  width:120px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid black;
+  padding: 4px;
+  margin-top: 50px;
+}
+
+.sitemap{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.moreinfo:hover  a{
+  color:white;
+}
+
+.moreinfo:hover{
+  background-color: #54aff0;
+  border:none;
+}
+
+.moreinfo a{
+  color:black;
+  text-decoration: none;
+}
+@-webkit-keyframes imgFade {
+ 0% {
+   opacity:1;
+ }
+ 17% {
+   opacity:1;
+ }
+ 25% {
+   opacity:0;
+ }
+ 92% {
+   opacity:0;
+ }
+ 100% {
+   opacity:1;
+ }
+}
+
+@-moz-keyframes imgFade {
+ 0% {
+   opacity:1;
+ }
+ 17% {
+   opacity:1;
+ }
+ 25% {
+   opacity:0;
+ }
+ 92% {
+   opacity:0;
+ }
+ 100% {
+   opacity:1;
+ }
+}
+
+@-o-keyframes imgFade {
+ 0% {
+   opacity:1;
+ }
+ 17% {
+   opacity:1;
+ }
+ 25% {
+   opacity:0;
+ }
+ 92% {
+   opacity:0;
+ }
+ 100% {
+   opacity:1;
+ }
+}
+
+@keyframes imgFade {
+ 0% {
+   opacity:1;
+ }
+ 17% {
+   opacity:1;
+ }
+ 25% {
+   opacity:0;
+ }
+ 92% {
+   opacity:0;
+ }
+ 100% {
+   opacity:1;
+ }
+}
+
+.carouselle img {
+  -webkit-animation-name: imgFade;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 8s;
+
+  -moz-animation-name: imgFade;
+  -moz-animation-timing-function: ease-in-out;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-duration: 8s;
+
+  -o-animation-name: imgFade;
+  -o-animation-timing-function: ease-in-out;
+  -o-animation-iteration-count: infinite;
+  -o-animation-duration: 8s;
+
+  animation-name: imgFade;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 8s;
+}
+
+.carouselle img:nth-of-type(1) {
+  -webkit-animation-delay: 6s;
+  -moz-animation-delay: 6s;
+  -o-animation-delay: 6s;
+  animation-delay: 6s;
+}
+.carouselle img:nth-of-type(2) {
+  -webkit-animation-delay: 4s;
+  -moz-animation-delay: 4s;
+  -o-animation-delay: 4s;
+  animation-delay: 4s;
+}
+.carouselle img:nth-of-type(3) {
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  -o-animation-delay: 2s;
+  animation-delay: 2s;
+}
+.carouselle img:nth-of-type(4) {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay: 0;
+  animation-delay: 0;
+}
+
+.sitemap{
+  border-radius: 20px;
+  border-style: solid;
+}
+
+.sites{
+  font-style: Calibri;
+  font-size: 17px;
+  text-decoration: none;
+  color: black;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-weight: bold;
+}
+
+.sites:hover{
+  background: #55ACEE;
+  color: white;
+  border-radius: 7px;
+}
+
